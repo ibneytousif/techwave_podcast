@@ -17,7 +17,7 @@ header {
 }
 /* Navbar */
 nav {
-    max-width: 1600px;
+    max-width: 1200px;
     justify-content : space-between; 
       
     display: flex;
@@ -44,6 +44,10 @@ nav h2 {
 
 }
 
+/* Color pallet  */
+.white {
+    color : white ; 
+}
 
 /* Banner */
 
@@ -53,20 +57,29 @@ nav h2 {
     background-repeat: no-repeat;
     height: 760px;  
     border: 2px solid teal;
-    align-items: center;
+    /* align-items: center; */
     
    
 }
 .banner-container {
+    border: 2px solid teal;
     
+    margin : 121px 760px;
+    display: flex;
+    flex-direction: column;
     
-    max-width: 560px;
-    
-    border: 1px solid teal;
-    margin : 101px 525px;
+    align-items: center;
+
 }
-
-
+.banner-container-image {
+    height: 400px;
+    width : 400px;
+    background-image: url("./assets/microphone.png");
+    background-repeat: no-repeat;
+    /* display : none */
+    
+    
+}
 
 
 /* Template's that can be used in various places */
@@ -88,7 +101,13 @@ nav h2 {
 }
 .gradient-font{
     /* color: var(--gradient-color); */
-    color: var(--gradient-bg-color) ; 
+    color: mediumaquamarine ;        
     font-size: 40px;
     font-weight: 700;
+}
+.btn-1 {
+
+}
+.btn-2 {
+
 }
