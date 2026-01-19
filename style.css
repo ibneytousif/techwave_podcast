@@ -102,42 +102,93 @@ nav h2 {
     margin-top: 10px;
     text-align: center;
 }
+.banner-information h2 {
+    font-size: 60px;
+}
+.banner-information p {
+    font-size: 16px;
+}
 .banner-information-button {
     
     margin-top: 10px;
-    text-align: center;
-    align-items: center;
+    display: flex;
+    gap : 15px
+    
+    
     
 }
+
 
 
 
 /* Template's that can be used in various places */
 .gradient-button {
   background : var(--gradient-color); 
-  border : none;
+  display: flex;
   padding : 12px 16px;
   color : white;
   cursor: pointer;
   border-radius: 2em;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
+  gap : 8px;
+  align-items: center;
 
 }
-.gradient-button img {
-    height: 15px;
-    width: 15px;
-    
-}
+/* .gradient-button img { */
+/*     height: 15px; */
+/*     width: 15px; */
+/*      */
+/* } */
 .gradient-font{
     /* color: var(--gradient-color); */
     color: mediumaquamarine ;        
     font-size: 40px;
     font-weight: 700;
 }
-.btn-1 {
+
+.transparent-btn {
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #00FF88 ;
+    display: flex;
+    padding : 12px 16px;
+    cursor: pointer;
+    border-radius: 2em;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
+    
+    align-items: center;
+    gap: 8px;
+    
+
+
 
 }
-.btn-2 {
+.gradient-button-2 {
+  background : var(--gradient-color); 
+  display: flex;
+  padding : 12px 16px;
+  color : white;
+  cursor: pointer;
+  border-radius: 2em;
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+  gap: 8px;
+  
+
 
 }
+
+
+
+
+
+
+
+
+
+
