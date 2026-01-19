@@ -2,6 +2,9 @@
     margin : 0 ; 
     padding: 0;
 }
+body {
+    background-color: var(--header-bg-color);
+}
 :root {
     --header-bg-color : #190d29 ; 
     
@@ -120,7 +123,7 @@ nav h2 {
     background-color: var(--header-bg-color);
 }
 .podcast-container {
-    border: 1px solid var(--header-bg-color);
+   
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -210,6 +213,9 @@ nav h2 {
     line-height: 58px;
     font-style: bold;
 }
+.techwave-container {
+    margin-bottom: 120px
+}
 
 .techwave-grid-container {
     
@@ -264,6 +270,78 @@ nav h2 {
 }
 
 
+/* Section - Featured Episodes */
+#featured-episodes {
+    background-color: var(--header-bg-color);
+}
+.container {
+
+    max-width: 1200px;
+    margin: 0px auto;
+    
+}
+.episode-container {
+    margin-top: 120px;
+    border: 1px solid navajowhite;
+}
+.episode-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /* height: 1276px; */
+}
+.episode-card {
+    
+    background-color: #652dad65;
+    border-radius: 20px;
+    
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.episode-card h3 {
+    padding: 0 24px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color :#00FF88;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 29px;
+    
+}
+.episode-card p {
+    padding: 0 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.8;
+
+}
+.card-duration {
+    padding: 0 24px;
+    
+    margin-top: 10px;
+    display: flex;
+    
+    align-items: center;
+
+}
+.card-duration p {
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    /* text-align: left; */
+}
+
+
+
+
+
 
 
 
@@ -278,6 +356,9 @@ nav h2 {
 
 
 /* Template's that can be used in various places */
+
+
+
 .gradient-button {
   background : var(--gradient-color); 
   display: flex;
@@ -291,9 +372,6 @@ nav h2 {
   align-items: center;
 
 }
-
-
-
 
 .gradient-font{
     /* color: var(--gradient-color); */
