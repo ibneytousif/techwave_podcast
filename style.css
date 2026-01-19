@@ -247,7 +247,7 @@ nav h2 {
 }
 .container {
   max-width: 1200px;
-  margin: 0px auto;
+  margin: 120px auto;
 }
 .episode-container {
   margin-top: 120px;
@@ -345,14 +345,28 @@ nav h2 {
 }
 .host-social {
   padding-top: 20px;
+  display: flex;
+  gap: 8px;
 }
-.social-image {
-  border: 1px solid teal;
+
+.host-social a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #3d1374ef;
+
+  border-radius: 90%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
-/* .host-social img { */
-/*   height: 20px; */
-/*   width: 20px; */
-/* } */
+
+.host-social img {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+}
+/*  */
 
 /* Template's that can be used in various places */
 
