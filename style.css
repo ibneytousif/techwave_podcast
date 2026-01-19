@@ -1,91 +1,84 @@
-*{
-    margin : 0 ; 
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color: var(--header-bg-color);
+  background-color: var(--header-bg-color);
 }
 :root {
-    --header-bg-color : #190d29 ; 
-    
-    --gradient-color : linear-gradient( 47.45deg,  #F7E93F 0%, #FB09B4  51%, #9100F8 100%);
+  --header-bg-color: #190d29;
+
+  --gradient-color: linear-gradient(
+    47.45deg,
+    #f7e93f 0%,
+    #fb09b4 51%,
+    #9100f8 100%
+  );
 }
-.inter  {
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  
 }
 header {
-    background-color: var(--header-bg-color);
+  background-color: var(--header-bg-color);
 }
 /* Navbar */
 nav {
-    max-width: 1200px;
-    justify-content : space-between; 
-      
-    display: flex;
-    
-    margin: 0px auto;
-    padding : 10px ;
-    
-    align-items: center;
-    /* border: 2px solid purple; */
+  max-width: 1200px;
+  justify-content: space-between;
+
+  display: flex;
+
+  margin: 0px auto;
+  padding: 10px;
+
+  align-items: center;
+  /* border: 2px solid purple; */
 }
 nav h2 {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 .navbar-features {
-    display: flex;
-    gap : 32px ;
-    list-style: none;
+  display: flex;
+  gap: 32px;
+  list-style: none;
 }
-.navbar-features  a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 16px;
-    font-weight: medium;
-
+.navbar-features a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: medium;
 }
 
 /* Color pallet  */
 .white {
-    color : white ; 
+  color: white;
 }
 
 /* Banner */
 
 #banner {
-    background-image: url("./assets/hero-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 760px;  
-    border: 1px solid var(--header-bg-color);
-    
-    
-   
+  background-image: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 760px;
+  border: 1px solid var(--header-bg-color);
 }
 .banner-container {
-    max-width: 550px;
-    margin: 112px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 550px;
+  margin: 112px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .circle-container {
-
-    position: relative;
-    
-    
-    
+  position: relative;
 }
 
 .circle {
-    
-    
-    width: 400px;
-    height: 400px;
-  
+  width: 400px;
+  height: 400px;
 }
 
 .mic {
@@ -95,333 +88,274 @@ nav h2 {
   width: 116px;
   height: 175px;
   transform: translate(-50%, -50%);
-  
 }
-.banner-information , .white {
-    margin-top: 10px;
-    text-align: center;
+.banner-information,
+.white {
+  margin-top: 10px;
+  text-align: center;
 }
 .banner-information h2 {
-    font-size: 60px;
+  font-size: 60px;
 }
 .banner-information p {
-    font-size: 16px;
+  font-size: 16px;
 }
 .banner-information-button {
-    
-    margin-top: 10px;
-    display: flex;
-    gap : 15px
-    
-    
-    
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
 }
 
 /* Apps Section */
 
 #apps {
-    background-color: var(--header-bg-color);
+  background-color: var(--header-bg-color);
 }
 .podcast-container {
-   
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .podcast-information {
-    margin-top: 50px;
-    
+  margin-top: 50px;
 }
-.podcast-information h1{
-    font-size: 48px;
-    font-weight: bold;
-    color: #ffff;
+.podcast-information h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffff;
 }
 .podcast-information p {
-    margin-top: 16px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffff;
-    line-height: 30px;
-    opacity: 0.8;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 30px;
+  opacity: 0.8;
 }
 .podcast-information-cards {
-    
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
-.card h3{
-    color:#00FF88  ;
-    font-size: 48px;
-    font-weight: bold;
+.card h3 {
+  color: #00ff88;
+  font-size: 48px;
+  font-weight: bold;
 }
 .card p {
-    margin-top: 16px;
-    color: white;
-    font-size: 16px;
-    font-weight: normal;
-    opacity: 0.8;
-    text-align: center;
+  margin-top: 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+  text-align: center;
 }
 .underline {
-    margin: 80px auto;
-    opacity: 0.1;
+  margin: 80px auto;
+  opacity: 0.1;
 }
 
 /* Section - Why Choose Techwave  */
 
 #why-choose-techwave {
-    border: 1px solid var(--header-bg-color);
-    background-color: var(--header-bg-color);
-
+  border: 1px solid var(--header-bg-color);
+  background-color: var(--header-bg-color);
 }
 .premuim-audio-quality {
-    grid-area: premium;
-    padding: 90px 40px;
-    background-color: #3d137465 ;
-    border-radius: 30px;
-   
+  grid-area: premium;
+  padding: 90px 40px;
+  background-color: #3d137465;
+  border-radius: 30px;
 }
-
-
 
 .mobile-friendly {
-    
-    grid-area: mobile;
+  grid-area: mobile;
 }
 .global-community {
-    grid-area: global;
+  grid-area: global;
 }
 .exclusive-interviews {
-    grid-area: exclusive;
+  grid-area: exclusive;
 }
 
 .rich-resources {
-    grid-area : rich ;
+  grid-area: rich;
 }
-
 
 .techwave-container h1 {
-    
-    
-    margin-bottom: 40px;  
-    margin-top:80px;
-    text-align: center;
-    color: white;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    font-style: bold;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  font-style: bold;
 }
 .techwave-container {
-    margin-bottom: 120px
+  margin-bottom: 120px;
 }
 
 .techwave-grid-container {
-    
-    max-width: 1200px;
-    margin : 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 
-    display: grid;
-    gap: 30px;
-    grid-template-columns: 1.5fr 1fr 1fr 1.8fr;  
-    grid-template-rows: auto auto auto;      
-   
-    grid-template-areas: 
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1.5fr 1fr 1fr 1.8fr;
+  grid-template-rows: auto auto auto;
+
+  grid-template-areas:
     "premium mobile mobile mobile"
     "premium global global global"
-    "exclusive exclusive exclusive rich"
-    
+    "exclusive exclusive exclusive rich";
 
-     
-
-/* shortcut for techwave container styling */  
+  /* shortcut for techwave container styling */
 }
 .white1 {
-    color: aliceblue;
+  color: aliceblue;
 }
 .border {
-    background-color: #3d137465 ;
-   
-    
-    border-radius: 30px;
-    
-    padding: 40px;
-    
+  background-color: #3d137465;
+
+  border-radius: 30px;
+
+  padding: 40px;
 }
 .techwave-font {
-    margin-top: 16px;
-    font-size: 24px;
-    font-weight: 700;
-    font-style: bold;
-    line-height: 29px;
-    text-align: left;
-    margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 29px;
+  text-align: left;
+  margin-bottom: 16px;
 }
 .techwave-p {
-    opacity :0.6;
-    margin-top: 16px;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 24px;
-    text-align: left;
-    margin-bottom: 16px;
+  opacity: 0.6;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 16px;
 }
-
 
 /* Section - Featured Episodes */
 #featured-episodes {
-    background-color: var(--header-bg-color);
+  background-color: var(--header-bg-color);
 }
 .container {
-
-    max-width: 1200px;
-    margin: 0px auto;
-    
+  max-width: 1200px;
+  margin: 0px auto;
 }
 .episode-container {
-    margin-top: 120px;
-    border: 1px solid navajowhite;
+  margin-top: 120px;
 }
 .episode-cards {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    /* height: 1276px; */
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
 }
 .episode-card {
-    
-    background-color: #652dad65;
-    border-radius: 20px;
-    
-    height: 428px;
-    display: flex;
-    flex-direction: column;
-    
+  background-color: #652dad65;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 380px;
+  min-height: 428px;
+  display: flex;
+  flex-direction: column;
 }
 .episode-card h3 {
-    padding: 0 24px;
-    margin-top: 24px;
-    margin-bottom: 12px;
-    color :#00FF88;
-    font-size: 24px;
-    font-weight: 700;
-    font-style: bold;
-    line-height: 29px;
-    
+  padding: 0 24px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 29px;
 }
 .episode-card p {
-    padding: 0 24px;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    opacity: 0.8;
-
+  padding: 0 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  opacity: 0.8;
 }
 .card-duration {
-    padding: 0 24px;
-    
-    margin-top: 10px;
-    display: flex;
-    
-    align-items: center;
-
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0 24px;
+}
+.iframe {
+  border-radius: 20px 20px 0 0;
 }
 .card-duration p {
-    color: #00FF88;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    /* text-align: left; */
+  color: #00ff88;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.episode-container h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  padding-bottom: 40px;
+  text-align: center;
+}
 
 /* Template's that can be used in various places */
 
-
-
 .gradient-button {
-  background : var(--gradient-color); 
+  background: var(--gradient-color);
   display: flex;
-  padding : 12px 16px;
-  color : white;
+  padding: 12px 16px;
+  color: white;
   cursor: pointer;
   border-radius: 2em;
   font-size: 16px;
   font-weight: 600;
-  gap : 8px;
+  gap: 8px;
   align-items: center;
-
 }
 
-.gradient-font{
-    /* color: var(--gradient-color); */
-    color: mediumaquamarine ;        
-    font-size: 40px;
-    font-weight: 700;
+.gradient-font {
+  /* color: var(--gradient-color); */
+  color: mediumaquamarine;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .transparent-btn {
-    padding: 12px 20px;
-    border-radius: 20px;
-    background-color: transparent;
-    border: 1px solid #00FF88 ;
-    display: flex;
-    padding : 12px 16px;
-    cursor: pointer;
-    border-radius: 2em;
-    font-size: 16px;
-    font-weight: 600;
-    color: #00FF88;
-    
-    align-items: center;
-    gap: 8px;
-    
+  padding: 12px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #00ff88;
+  display: flex;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 2em;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00ff88;
 
-
-
+  align-items: center;
+  gap: 8px;
 }
 .gradient-button-2 {
-  background : var(--gradient-color); 
+  background: var(--gradient-color);
   display: flex;
-  padding : 12px 16px;
-  color : white;
+  padding: 12px 16px;
+  color: white;
   cursor: pointer;
   border-radius: 2em;
   font-size: 16px;
   font-weight: 400;
   align-items: center;
   gap: 8px;
-  
-
-
 }
-
-
-
-
-
-
-
-
-
-
