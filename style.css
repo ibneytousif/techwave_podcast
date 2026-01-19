@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root {
-    --header-bg-color : #412567 ; 
+    --header-bg-color : #190d29 ; 
     
     --gradient-color : linear-gradient( 47.45deg,  #F7E93F 0%, #FB09B4  51%, #9100F8 100%);
 }
@@ -118,6 +118,70 @@ nav h2 {
     
 }
 
+/* Apps Section */
+
+#apps {
+    background-color: var(--header-bg-color);
+}
+.podcast-container {
+    border: 1px solid rgb(246, 250, 5);
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.podcast-information {
+    margin-top: 50px;
+    
+}
+.podcast-information h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffff;
+}
+.podcast-information p {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    line-height: 30px;
+    opacity: 0.8;
+}
+.podcast-information-cards {
+    border: 1px solid teal;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card h3{
+    color:#00FF88  ;
+    font-size: 48px;
+    font-weight: bold;
+}
+.card p {
+    margin-top: 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.8;
+    text-align: center;
+}
+.underline {
+    margin: 80px auto;
+    opacity: 0.1;
+}
+
+/* Section - Why Choose Techwave  */
+
+#why-choose-techwave {
+    border: 4px solid teal;
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -135,11 +199,10 @@ nav h2 {
   align-items: center;
 
 }
-/* .gradient-button img { */
-/*     height: 15px; */
-/*     width: 15px; */
-/*      */
-/* } */
+
+
+
+
 .gradient-font{
     /* color: var(--gradient-color); */
     color: mediumaquamarine ;        
