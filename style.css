@@ -62,25 +62,30 @@ nav h2 {
    
 }
 .banner-container {
-    max-width: 900px;
+    max-width: 550px;
     border: 2px solid rgb(128, 98, 0);
+
     
-    /* margin : 121px 760px; */
-    margin: 0 auto;
+    
+    margin: 112px auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .circle-container {
 
-    /* position: relative; */
-    /* width: 400px; */
-    border: 1px solid firebrick;
+    position: relative;
+    
+    border: 5px solid firebrick;
+    
 }
 
 .circle {
-    margin: 121px 240px;
-    width: 47%;
+    
+    
+    width: 400px;
+    height: 400px;
   
 }
 
