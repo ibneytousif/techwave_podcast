@@ -21,6 +21,10 @@ body {
     font-optical-sizing: auto;
 }
 
+.hide {
+    display: none;
+}
+
 header {
     background-color: var(--header-bg-color);
 }
@@ -83,6 +87,26 @@ nav h2 {
     position: relative;
 }
 
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background: #00ff88;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+
+}
+
+
+.badge:hover {
+    transform: rotate(-360deg);
+    box-shadow: 0 0 20px rgba(155, 0, 248, 0.6);
+}
+
 .circle {
     width: 400px;
     height: 400px;
@@ -109,6 +133,7 @@ nav h2 {
 
 .banner-information p {
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .banner-information-button {
@@ -479,6 +504,13 @@ html {
     font-weight: 600;
     gap: 8px;
     align-items: center;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+
+}
+
+.gradient-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(155, 0, 248, 0.6);
 }
 
 .gradient-font {
@@ -503,7 +535,15 @@ html {
 
     align-items: center;
     gap: 8px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+
 }
+
+.transparent-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
 
 .gradient-button-2 {
     background: var(--gradient-color);
@@ -516,6 +556,13 @@ html {
     font-weight: 400;
     align-items: center;
     gap: 8px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+
+.gradient-button-2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(155, 0, 248, 0.6);
 }
 
 @media screen and (max-width:576px) {
@@ -526,9 +573,15 @@ html {
         display: none;
     }
 
+    .badge {
+        top: 90px;
+        right: 20px;
+    }
+
 
 
     #banner {
+
         background-position: center;
         background-size: contain;
         height: auto;
@@ -538,6 +591,26 @@ html {
     .banner-information h2 {
         font-size: 40px;
     }
+
+    /* Hamburger icon */
+    .with-hamburger {
+        display: flex;
+        justify-content: space-between;
+        gap: 150px;
+        align-items: center;
+    }
+
+    .hide {
+        display: flex;
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+
+
+
 
     .podcast-information h1 {
         font-size: 32px;
@@ -618,7 +691,7 @@ html {
     /* Footer Section */
     #footer-banner {
 
-        max-width: 400px;
+        max-width: 100%;
 
 
 
