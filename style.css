@@ -67,7 +67,7 @@ nav h2 {
     background-image: url("./assets/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 760px;
+
     border: 1px solid var(--header-bg-color);
 }
 
@@ -516,4 +516,144 @@ html {
     font-weight: 400;
     align-items: center;
     gap: 8px;
+}
+
+@media screen and (max-width:576px) {
+
+
+    .navbar-features,
+    .gradient-button {
+        display: none;
+    }
+
+    nav {}
+
+    #banner {
+        background-position: center;
+        background-size: contain;
+        height: auto;
+
+    }
+
+    .banner-information h2 {
+        font-size: 40px;
+    }
+
+    .podcast-information h1 {
+        font-size: 32px;
+
+
+    }
+
+    .podcast-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .podcast-information-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 20px;
+    }
+
+    .techwave-container h1 {
+        font-size: 32px;
+    }
+
+    .techwave-grid-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 16px;
+    }
+
+    .techwave-container {
+
+        margin-bottom: 0px
+    }
+
+    .episode-container {
+        margin-top: 0px;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+
+    .episode-container h1 {
+        font-size: 32px;
+    }
+
+    .episode-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .host {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .host-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .host-information {
+        text-align: center;
+    }
+
+    .host-social {
+
+        max-width: 184px;
+        margin: 0 auto;
+    }
+
+    .footer-container {
+        max-width: 440px;
+        margin: 0 auto;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        padding-top: 100px;
+    }
+
+    .banner-container {
+
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+    .mic {
+        top: 65%;
+        width: 60px;
+        height: 90px;
+    }
+
+
+
+
 }
