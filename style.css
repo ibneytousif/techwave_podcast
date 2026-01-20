@@ -358,7 +358,7 @@ nav h2 {
 .host-container {
     background-color: #3d137465;
     border-radius: 40px;
-    width: 1200px;
+    width: 113 0px;
     height: 280px;
     align-items: center;
 
@@ -460,6 +460,10 @@ nav h2 {
     font-size: 16px;
     font-weight: 200;
 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Template's that can be used in various places */
